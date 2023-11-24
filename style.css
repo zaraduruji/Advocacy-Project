@@ -1,0 +1,370 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ 
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    /* Add a background color or image */
+    background-color: skyblue;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+   .important {color: white;
+              text-align: centre;
+              font-size: 25px;
+               border: 3px solid white;
+              background-color: black;}
+   #interesting {color: black;}
+
+  a:link {
+      color: blue;
+      text-align: right; /* Remove underlines from links */
+  }
+
+  #theme-toggle {
+      position: absolute;
+      right: 0;
+  }
+
+  /* Visited link style */
+  a:visited {
+      color: purple;
+    font size: 12px;
+  }
+
+  /* Link hover style */
+  a:hover {
+      color: red;
+      text-decoration: underline; /* Add an underline when hovering */
+  }
+
+  /* Active link style */
+  a:active {
+      color: orange;
+  }
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+     color: black;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+  font-family: Times New Roman;
+}
+
+a {
+
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+   background-color: black;
+  border: 3px solid white;
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+/* Add style to button */
+#theme-button {
+text-decoration: underline;
+font-family:sans-serif; 
+background-color:darkgray;
+padding: 3px;
+border : solidblack;
+border-width: 2px;
+margin-left: auto;
+
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+background-color: purple;
+color: lightblue;
+
+}
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+      background-color: red;
+      color: white;
+      padding-top: 20px; 
+      margin-bottom: 20px;
+      text-align: center; 
+  }
+
+
+  #header-left {
+      float: left;
+      width: 50%;
+  }
+
+
+  #header-right {
+      float: right;
+      width: 50%;
+  }
+
+.header-button {
+   background-color:  black;
+   border: 3px solid white;
+   color: white;
+   font-size: 16px;
+   text-align: right;
+   padding: 15px 32px;
+   cursor: pointer;
+  margin: 10px;
+}
+
+.header-buttontwo {
+  background-color:  black;
+   border: 3px solid white;
+   color: white;
+   font-size: 16px;
+   text-align: right;
+   padding: 15px 32px;
+   cursor: pointer;
+}
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Part 1: Navbar */
+.navbar {
+  position: fixed; /* Keeps the navbar fixed in the viewport */
+  z-index: 1000; /* Adjust the z-index to ensure the navbar appears on top */
+  /* Other navbar styles */
+}
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+  text-align: center;
+  color: lightblue;
+  width: 50%;
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+  text-align: center;
+  color: darkcyan;
+  width: 50%;
+  
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+  
+
+}
+
+
+.petition-para {
+width: 55%;
+padding-right: 50px;
+
+}
+
+
+.signatures{
+width: 45%;
+padding-right: 10px;
+
+}
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+.revealable {
+  position: relative; /* Allows elements to move without affecting other elements */
+  transform: translateY(150px); /* Initially moves elements downwards */
+  opacity: 0; /* Makes elements transparent */
+  transition: all 2s ease; /* Matches animation duration and easing */
+}
+
+/* Styling for active revealable elements */
+.revealable.active {
+  transform: translateY(0); /* Moves elements back to original position */
+  opacity: 1; /* Makes elements fully visible */
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
